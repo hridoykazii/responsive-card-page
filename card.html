@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/card.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css"/>
+    <!-- fontAwwsome-link -->
+    <script src="https://kit.fontawesome.com/02a829a1e2.js" crossorigin="anonymous"></script>
+    
+    <title>Card</title>
+    
+  </head>
+  <body>
+    <!-- Main-header-start -->
+    <header class="py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg  first-nav bg-main p-2">
+              <button class="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mx-0" href="#">
+              <img src="images/wbSoftwaresLogo.png" alt="WB Softwares ltd." class="img-fluid"></a>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <img src="images/wbSoftwaresLogo.png" alt="WB Softwares ltd." class="offcanvas-title"
+                  id="offcanvasNavbarLabel">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 fn-menu">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-th-large"></i>Dashboard</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-bookmark"></i>Lead</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-project-diagram"></i>Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-flag"></i>Report</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-rss-square"></i>Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-file"></i>Others</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-tools"></i>Settings</a>
+                  </li>
+                </ul>
+    
+              </div>
+    
+            </div>
+            <a href="#">
+              <img src="images/profilePic.png" class="rounded float-end" alt="profilePic">
+            </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- <header>
+      <nav class="navbar navbar-expand-lg  first-nav">
+        <div class="container bg-main py-3">
+          <button class="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand mx-0" href="#">
+            <img src="images/wbSoftwaresLogo.png" alt="WB Softwares ltd." class="img-fluid"></a>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <img src="images/wbSoftwaresLogo.png" alt="WB Softwares ltd." class="offcanvas-title"
+                id="offcanvasNavbarLabel">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 fn-menu">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-th-large"></i>Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-bookmark"></i>Lead</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-project-diagram"></i>Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-flag"></i>Report</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-rss-square"></i>Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-file"></i>Others</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-tools"></i>Settings</a>
+                </li>
+              </ul>
+  
+            </div>
+  
+          </div>
+          <a href="#">
+            <img src="images/profilePic.png" class="rounded float-end" alt="profilePic">
+          </a>
+        </div>
+      </nav>
+    </header> -->
+    <!-- Main-header-end -->
+    <!-- Card-Start -->
+    <section class="card-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="card-custom">
+                  <div class="card mb-2">
+                    <div class="card-body">
+                      <h5 class="card-title mb-4 ">System Admin</h5>
+                      <p class="card-text mb-0">Coaching ID: <span>000001</span></p>
+                      <p class="card-text mb-0">Coaching Name: <span>System Admin</span></p>
+                      <p class="card-text mb-0">Email: <span>admindhaka@gmail.com</span></p>
+                      <p class="card-text mb-0">Mobile: <span>001754881452</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card-custom">
+                  <div class="card mb-2">
+                    <div class="card-body">
+                      <h5 class="card-title mb-4">Courses</h5>
+                      <p class="card-text">All the courses for this system you can find out from here.</p>
+                      <h6 class="card-subtitle mb-2 text-muted">Total-Courses: <span>0</span></h6>
+                      <div class="card-button mt-5">
+                        <a href="#" class="btn btn-sm btn-primary card-link">Card link</a>
+                        <a href="#" class="btn btn-sm btn-success card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card-custom">
+                  <div class="card mb-2">
+                    <div class="card-body">
+                      <h5 class="card-title mb-4">Batch</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <h6 class="card-subtitle mb-2 text-muted">Total-Courses: <span>0</span></h6>
+                      <div class="card-button mt-5">
+                        <a href="#" class="btn btn-sm btn-primary card-link">Card link</a>
+                        <a href="#" class="btn btn-sm btn-success card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card-custom">
+                  <div class="card mb-2">
+                    <div class="card-body">
+                      <h5 class="card-title mb-4">Students</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <h6 class="card-subtitle mb-2 text-muted">Total-Courses: <span>0</span></h6>
+                      <div class="card-button mt-5">
+                        <a href="#" class="btn btn-sm btn-primary card-link">Card link</a>
+                        <a href="#" class="btn btn-sm btn-success card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card-custom">
+                  <div class="card mb-2">
+                    <div class="card-body">
+                      <h5 class="card-title mb-4">Attendances</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h6 class="card-subtitle mb-2 text-muted">Total-Courses: <span>0</span></h6>
+                      <div class="card-button mt-5">
+                        <a href="#" class="btn btn-sm btn-primary card-link">Card link</a>
+                        <a href="#" class="btn btn-sm btn-success card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card-custom">
+                  <div class="card mb-2">
+                    <div class="card-body">
+                      <h5 class="card-title mb-4">Exams</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <h6 class="card-subtitle mb-2 text-muted">Total-Courses: <span>0</span></h6>
+                      <div class="card-button mt-5">
+                        <a href="#" class="btn btn-sm btn-primary card-link">Card link</a>
+                        <a href="#" class="btn btn-sm btn-success card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card-custom">
+                  <div class="card mb-2">
+                    <div class="card-body">
+                      <h5 class="card-title mb-4">Results</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h6 class="card-subtitle mb-2 text-muted">Total-Courses: <span>0</span></h6>
+                      <div class="card-button mt-5">
+                        <a href="#" class="btn btn-sm btn-primary card-link">Card link</a>
+                        <a href="#" class="btn btn-sm btn-success card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Card-End -->
+    <!-- Footer-Start  -->
+    <footer >
+      <div class="container bg-main " >
+        <div class="row justify-content-center text-center">
+          <div class="col-md-10">
+            <p>Copyright ©2022 Example Company</p>
+            <nav>
+              <a href="#">Terms of Use</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Contact Us</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!-- Footer-End -->
+    <!-- js-part-start -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-1.12.1.ui.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+
+    </script>
+    <!-- js-part-end -->
+  </body>
+</html>
